@@ -25,6 +25,6 @@ our $LIST = {
 =head1 DESCRIPTION
 
 
-=head1 SEE ALSO
+=head1 append:SEE ALSO
 
 L<Acme::CPANModules::Parse::UnixConfigs>
