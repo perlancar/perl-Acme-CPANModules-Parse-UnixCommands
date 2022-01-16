@@ -1,6 +1,11 @@
 package Acme::CPANModules::Parse::UnixCommands;
 
+use strict;
+use warnings;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -16,6 +21,7 @@ our $LIST = {
         {module=>'IPTables::Parse', summary=>'Parse iptables output'},
         {module=>'Proc::ProcessTable', summary=>'Parse "ps ax" output'},
         {module=>'Parse::IPCommand', summary=>'Parse linux "ip" command output'},
+        {module=>'Parse::nm', summary=>'Parse nm output'},
     ],
 };
 
